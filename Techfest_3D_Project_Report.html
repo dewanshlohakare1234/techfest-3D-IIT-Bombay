@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Techfest 2026 - CYBERPULSE Project Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 15mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      color: #0f172a;
+      background: #ffffff;
+      line-height: 1.6;
+      padding: 30px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #030712;
+      color: #00f0ff;
+      border: 1px solid #00f0ff;
+      padding: 10px 20px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .print-btn:hover {
+      background: #00f0ff;
+      color: #030712;
+    }
+    @media print {
+      .print-btn { display: none; }
+      body { padding: 0; }
+    }
+    .hero-banner {
+      background: linear-gradient(135deg, #030712, #0b1528);
+      color: #ffffff;
+      padding: 36px 32px;
+      border-radius: 12px;
+      margin-bottom: 28px;
+    }
+    .tag {
+      display: inline-block;
+      background: rgba(0, 240, 255, 0.15);
+      border: 1px solid #00f0ff;
+      color: #00f0ff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 30pt;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+    h1 span {
+      color: #00f0ff;
+    }
+    .subtitle {
+      font-size: 13pt;
+      color: #94a3b8;
+      font-weight: 400;
+    }
+    .section {
+      margin-bottom: 26px;
+    }
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14pt;
+      font-weight: 800;
+      color: #0f172a;
+      border-left: 4px solid #00f0ff;
+      padding-left: 12px;
+      margin-bottom: 12px;
+    }
+    p {
+      color: #334155;
+      font-size: 11pt;
+      margin-bottom: 10px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .card-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-desc {
+      font-size: 9.5pt;
+      color: #64748b;
+      line-height: 1.5;
+    }
+    .tech-pill {
+      display: inline-block;
+      background: #e2e8f0;
+      color: #0f172a;
+      font-size: 9pt;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-right: 6px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+
+  <div class="hero-banner">
+    <div class="tag">TECHFEST 2026 // FLAGSHIP SHOWCASE</div>
+    <h1>CYBER<span>PULSE</span></h1>
+    <div class="subtitle">3D Interactive Web Platform — Beyond Human Horizons</div>
+  </div>
+
+  <div class="section">
+    <h2>Project Concept & Overview</h2>
+    <p>
+      <strong>CYBERPULSE</strong> is an interactive 3D web experience designed for Techfest 2026. Instead of a standard static website, it delivers an exploratory sci-fi universe showcasing futuristic robotics, quantum computing, and artificial intelligence. Built entirely with real-time WebGL rendering and procedural audio, visitors can interact with 3D elements, navigate through spatial sectors, customize simulations, and generate digital credentials.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Key 3D Features & User Interactions</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-title">🌌 3D Quantum Reactor</div>
+        <div class="card-desc">
+          Procedural rotating core enclosed in a wireframe dodecahedron and dual gyroscopic gimbal rings with 8 orbiting satellite energy nodes. Reacts to cursor tilt and mouse clicks with expanding 3D shockwaves.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">🎥 Cinematic 3D Scroll Journey</div>
+        <div class="card-desc">
+          Smooth camera choreography that glides through 5 spatial sectors as the user scrolls, traveling through the Core, Battle Arenas, Event Timeline, 3D Lab, and Access Terminal.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">⚔️ 3D Competition Arenas</div>
+        <div class="card-desc">
+          Dedicated interactive 3D holographic artifacts representing festival events: RoboWars Combat Core, AI Nexus Neural Lattice, Drone Grand Prix Turbine, and CyberSec Tesseract.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">🎛️ Real-Time 3D Simulation Lab</div>
+        <div class="card-desc">
+          Interactive control panel enabling visitors to modify geometry topologies in real time, toggle wireframe render mode, adjust particle turbulence, and switch between 4 neon color themes.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">🪪 3D Holographic Attendee Pass</div>
+        <div class="card-desc">
+          An interactive digital badge with gyroscopic 3D mouse tilt physics and specular laser glare. Visitors can input their name, select a division, and mint their customized pass with confetti celebration.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">🎵 Procedural Audio Synthesizer</div>
+        <div class="card-desc">
+          Zero external audio downloads. Built-in Web Audio API synthesizes ambient sci-fi sub-bass hum, laser hover chirps, click feedback, and shockwave bass drops directly in the browser.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Automated Presentation Mode</h2>
+    <p>
+      The website includes a one-click <strong>Autopilot Tour</strong> button in the navigation header. When activated, the 3D camera automatically executes a smooth, continuous flight through the entire experience, making it effortless to demonstrate and present to viewers.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Technology & Performance</h2>
+    <p>
+      The application runs at a consistent 60 FPS utilizing hardware-accelerated WebGL. The entire website is packaged cleanly into a single, self-contained HTML file with zero build requirements or external asset lag.
+    </p>
+    <div style="margin-top: 8px;">
+      <span class="tech-pill">Three.js</span>
+      <span class="tech-pill">WebGL2</span>
+      <span class="tech-pill">Web Audio API</span>
+      <span class="tech-pill">CSS 3D Transforms</span>
+      <span class="tech-pill">Canvas Particle Systems</span>
+      <span class="tech-pill">Responsive HTML5</span>
+    </div>
+  </div>
+
+</body>
+</html>
