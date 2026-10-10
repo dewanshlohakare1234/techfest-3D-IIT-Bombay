@@ -1,76 +1,75 @@
-# ⚡ CYBERPULSE // Techfest 2026 - 3D Interactive Experience
+# ⚡ CYBERPULSE // Techfest 2026
 
-An award-winning, futuristic 3D interactive website designed for **Techfest 2026**. Featuring real-time WebGL rendering with Three.js, procedural audio synthesis, scroll-driven camera choreography, interactive 3D arena holograms, dynamic theme engines, and a 3D holographic digital credential pass generator.
+> **An immersive 3D interactive web platform exploring synthetic intelligence, quantum computing, and autonomous robotics.**
 
-The entire project is **100% self-contained in a single, high-performance `index.html` file**. You can double-click it to run it directly in any web browser without installing anything, or push it straight to GitHub.
+Built for **Techfest 2026**, **CYBERPULSE** is a real-time WebGL interactive experience designed to replace conventional static landing pages with an exploratory spatial journey.
 
 ---
 
-## 🌟 Key Highlights & 3D Features
+## 🌌 Key Highlights & Features
 
-### 1. 🌌 Procedural 3D Quantum Reactor (Hero Zone)
-- **Nested Geometries**: Morphing core mesh (Torus Knot, Geodesic Sphere, Octahedral Crystal, Torus Ring) enclosed inside a rotating wireframe dodecahedron and dual gyroscopic gimbal rings.
-- **Particle Swarm Vortex**: 4,500+ glowing additive particles reacting with gravitational turbulence and dynamic mouse velocity.
-- **Shockwave Impact**: Click anywhere in the viewport to trigger an expanding 3D shockwave ring that ripples through space.
+### 1. ⚛️ Procedural 3D Quantum Reactor
+- **Morphing Core**: Procedural 3D mesh (Torus Knot, Geodesic Sphere, Crystal, and Ring) rendered with metallic and roughness shaders.
+- **Structural Cage**: Counter-rotating wireframe dodecahedron providing geometric depth.
+- **Gyroscopic Gimbal Rings**: Dual orthogonal rings rotating with futuristic telemetry tick marks.
+- **Orbital Satellites**: 8 satellite energy nodes traversing calculated elliptical orbits.
+- **Interactive Shockwaves**: Click anywhere in the 3D viewport to trigger expanding shockwave rings that ripple through space.
 
 ### 2. 🎥 Cinematic 3D Scroll Journey
-- Seamless camera flight paths transitioning across five sectors:
-  - **Sector 01: The Core** (Keynote & Vision)
-  - **Sector 02: Arenas & Competitions** (RoboWars, AI Nexus Hackathon, Drone Grand Prix, CyberSec CTF)
-  - **Sector 03: Telemetry Itinerary** (Festival schedule & stages)
-  - **Sector 04: The 3D Quantum Lab** (Real-time WebGL physics & shader playground)
-  - **Sector 05: Holographic Access Terminal** (Interactive 3D festival badge with tilt & laser shine)
+- Seamless camera flight paths dynamically interpolated across five spatial sectors:
+  - **Sector 01: The Core** — Hero quantum reactor with mouse parallax and interactive shockwaves.
+  - **Sector 02: Arenas & Competitions** — Interactive 3D holographic models for RoboWars, AI Nexus Hackathon, Drone Grand Prix, and CyberSec CTF.
+  - **Sector 03: Telemetry Itinerary** — Festival schedule and stages over an infinite cyber grid plane.
+  - **Sector 04: The 3D Quantum Lab** — Real-time WebGL physics and shader playground.
+  - **Sector 05: Holographic Access Terminal** — Interactive 3D festival pass with gyroscopic tilt physics.
 
-### 3. 🎵 Procedural Web Audio API Sound Synthesizer
-- Zero external audio files required.
-- Real-time synthesized ambient reactor sub-bass hum, laser chirps on UI hover, tactile click frequencies, and shockwave sub-booms with an on-screen mute/unmute HUD toggle.
+### 3. 🎛️ Real-Time 3D Simulation Lab
+- **Topology Selector**: Instantly switch between Knot, Sphere, Crystal, and Ring geometries.
+- **Chromatic Themes**: Four custom color palettes (*Cyberpunk Cyan*, *Quantum Void Purple*, *Matrix Emerald*, *Solar Amber*).
+- **Wireframe Matrix Mode**: Toggle between solid physical rendering and geometric wireframe mode.
+- **Kinematics Controls**: Sliders to adjust choreographic rotation speed and particle turbulence in real time.
 
-### 4. 🎛️ Real-Time 3D Simulation Lab
-- Live controls to manipulate:
-  - **Core Topology**: Switch between Knot, Sphere, Crystal, and Ring.
-  - **Color Themes**: Cyberpunk Cyan & Magenta, Quantum Void Purple, Matrix Emerald Green, Solar Amber Crimson.
-  - **Wireframe Mode**: Instant toggle for vector wireframe aesthetics.
-  - **Physics**: Real-time slider adjustments for choreographic speed and particle turbulence.
+### 4. 🪪 3D Holographic Pass Generator
+- Interactive digital festival badge with 3D gyroscopic tilt and dynamic specular laser sheen.
+- Customizable attendee call-sign and division selector.
+- Instant pass minting with celebratory particle confetti.
 
-### 5. 🪪 3D Holographic Pass Generator
-- Interactive badge with 3D gyroscopic tilt and dynamic specular laser sheen.
-- Customizable call-sign and technical role with instant crypto-pass minting and celebratory particle confetti.
+### 5. 🎵 Procedural Web Audio Synthesizer
+- Synthesized in real time using the **Web Audio API** with zero external audio assets.
+- Ambient sub-bass drone (48 Hz sawtooth + 140 Hz lowpass filter), high-frequency UI hover chirps, tactile click tones, and low-frequency laser impact booms.
+- On-screen audio HUD toggle with animated equalizer bars.
 
 ### 6. 🚀 Autopilot Tour Mode
-- One-click **"AUTOPILOT TOUR"** button in the top navigation bar that automatically executes a buttery-smooth cinematic camera flight through the entire experience — perfect for screen recording!
+- One-click **"AUTOPILOT TOUR"** button in the top navigation bar that automatically flies the camera through all sectors for a smooth, hands-free demonstration.
 
 ---
 
-## 🖥️ How to Run
-Just open `index.html` in your favorite browser (Google Chrome, Microsoft Edge, Firefox, Brave, Safari).
-- Simply **double-click `index.html`**, or right-click and choose **"Open with Google Chrome"** (or Edge).
-- Works with zero installation, zero server setup, and zero dependencies!
+## 🛠️ Technology Stack
+
+- **3D Graphics Engine**: [Three.js](https://threejs.org/) (WebGL2, ACESFilmic Tone Mapping, Additive Blending)
+- **Audio Architecture**: Web Audio API (procedural oscillators, biquad filters, noise buffers)
+- **Typography**: Orbitron, Space Grotesk, JetBrains Mono
+- **Architecture**: 100% self-contained, single-file HTML application with zero external asset lag
 
 ---
 
-## 🐙 How to Push to GitHub Using GitHub Desktop
+## 🚀 Quick Start
 
-1. Open **GitHub Desktop**.
-2. Click **File** > **Add Local Repository...** (or press `Ctrl + O`).
-3. Click **Browse...** and select the project folder:
-   ```
-   C:\Users\dewan\.gemini\antigravity\scratch\techfest-3d
-   ```
-4. If GitHub Desktop says *"This directory does not appear to be a Git repository"*, click the blue link that says **"create a repository"**.
-   - Set Name to: `techfest-3d`
-   - Click **Create Repository**.
-5. You will see `index.html`, `README.md`, etc. listed under changes.
-6. In the bottom-left corner of GitHub Desktop:
-   - Summary: `Initial commit: 3D interactive Techfest website`
-   - Click **Commit to main**.
-7. Click the top button **Publish repository** to push it to your GitHub account!
+Simply open `index.html` in any modern web browser (Chrome, Edge, Firefox, Brave, Safari):
+- Double-click `index.html` to run locally, or host directly on **GitHub Pages**.
+- No installation, no build steps, and no server configuration required.
 
 ---
 
-## 🎬 How to Record the Screen Demonstration for Submission
-1. Open `index.html` in your browser in full screen (`F11`).
-2. Click **AUDIO: MUTED** in the top bar to enable the futuristic sound effects.
-3. Click **▶ AUTOPILOT TOUR** in the top navigation for an automated, cinematic camera flight, or scroll manually through each sector.
-4. Interact with the **3D Lab** sliders, toggle wireframe, and switch themes.
-5. In **Sector 05**, type your name, select a division, and click **GENERATE CRYPTO-PASS**.
-6. Save your recording, upload it to Google Drive (set access to **"Anyone with the link can view"**), and submit either the Google Drive link or your new GitHub repository link!
+## 🎮 Controls & Interactions
+
+| Action | Result |
+| :--- | :--- |
+| **Mouse Move** | Parallax camera tilt and particle gravitational influence |
+| **Mouse Click** | Spawns a high-energy expanding 3D shockwave ring |
+| **Scroll** | Drives the camera through all 5 spatial sectors |
+| **Hover Arena Cards** | Focuses and spins the corresponding 3D hologram |
+| **3D Lab Controls** | Alters reactor geometry, wireframe mode, speed, and themes in real time |
+| **Pass Terminal** | Tilts the holographic badge in 3D and generates digital credentials |
+| **Audio Toggle** | Unmutes / mutes the procedural sci-fi audio synthesizer |
+| **Autopilot Tour** | Automatically flies the camera through the entire 3D world |
